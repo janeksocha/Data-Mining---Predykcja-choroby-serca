@@ -73,6 +73,7 @@ korelację Spearmana,
 test chi-kwadrat.
 
 
+
 Najważniejsze cechy:
 
 cp,
