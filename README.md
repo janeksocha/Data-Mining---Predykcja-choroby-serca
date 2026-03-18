@@ -66,36 +66,36 @@ obliczono macierze korelacji (Pearsona i Spearmana).
 
 W celu identyfikacji najważniejszych zmiennych wykorzystano:
 
-współczynnik korelacji Pearsona,
+- współczynnik korelacji Pearsona,
 
-korelację Spearmana,
+- korelację Spearmana,
 
-test chi-kwadrat.
+- test chi-kwadrat.
 
 
 
 Najważniejsze cechy:
 
-cp,
+- cp,
 
-exang,
+- exang,
 
-oldpeak,
+- oldpeak,
 
-thalach,
+- thalach,
 
-ca.
+- ca.
 
 
 # Zastosowane modele
 
 Porównano następujące modele:
 
-regresja logistyczna,
+- regresja logistyczna,
 
-drzewo decyzyjne,
+- drzewo decyzyjne,
 
-las losowy (Random Forest).
+- las losowy (Random Forest).
 
 
 Modele były trenowane na różnych zestawach cech (wszystkie cechy oraz wybrane na podstawie analizy).
@@ -104,17 +104,17 @@ Modele były trenowane na różnych zestawach cech (wszystkie cechy oraz wybrane
 
 Porównanie dokładności modeli:
 
-regresja logistyczna: 0.81
+- regresja logistyczna: 0.81
 
-regresja logistyczna (z selekcją cech): 0.85
+- regresja logistyczna (z selekcją cech): 0.85
 
-drzewo decyzyjne (głębokość 4): 0.84
+- drzewo decyzyjne (głębokość 4): 0.84
 
-drzewo decyzyjne (głębokość 9): 0.99
+- drzewo decyzyjne (głębokość 9): 0.99
 
-las losowy (wybrane cechy): 0.92–0.98
+- las losowy (wybrane cechy): 0.92–0.98
 
-las losowy (wszystkie cechy): 1.00
+- las losowy (wszystkie cechy): 1.00
 
 
 Najlepsze wyniki osiągnął model Random Forest.
